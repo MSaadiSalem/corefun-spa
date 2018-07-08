@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+/*           ****** home page ******                   */
+
+/*                   circle                            */
 .centralCircle {
     width: 100%;
     left: 50%;
@@ -25,7 +28,7 @@ body {
     font-family: sans-serif;
 }
 
-
+/*             slide words home page                */
 
  figure {
     height: 50px;
@@ -123,7 +126,7 @@ body {
     }
 }
 
-
+/*                   footer home page                */
 
 .homeStarted {
     margin: 0 auto;
@@ -158,7 +161,6 @@ body {
     font-weight: bold;
     color: #4e5052;
 }
-
 
 
 
