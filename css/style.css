@@ -6,6 +6,10 @@ body {
 }
 /*           ****** home page ******                   */
 
+.homePage {
+	background-color: #ffe600;    
+}
+
 /*                   circle                            */
 .centralCircle {
     width: 100%;
