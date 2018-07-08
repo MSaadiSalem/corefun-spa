@@ -1,0 +1,164 @@
+body {
+	background-color: #ffe600;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.centralCircle {
+    width: 100%;
+    left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.circle {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+.centralCircle h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+ figure {
+    height: 50px;
+	position: relative;
+	margin: 0;
+	left: 0;
+	width: 500%;
+	animation: 30s slidy infinite;
+}
+ figure img {
+	width: 100%;
+}
+ figure .slider {
+	width: 20%;
+	float: left;
+}
+
+ .slider >  p {
+	width: 130px;
+	height: 130px;
+	display: block;
+	border-radius: 50%;
+	margin: auto auto 15px;
+	transform-style: preserve-3d;
+}
+.opinion p {
+	text-align: center;
+	color: #4e5052;
+	font-size: 20px;
+	width: 70%;
+    margin: 0 auto;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%;
+	}
+
+	8%{
+		left: 0%;
+	}
+	10%{
+		left: -100%;
+	}
+	18%{
+		left: -100%;
+	}
+	20%{
+		left: -200%;
+	}
+	28%{
+		left: -200%;
+	}
+	30%{
+		left: -300%;
+	}
+	38%{
+		left: -300%;
+	}
+	40%{
+		left: -400%;
+	}
+	48%{
+		left: -400%;
+	}
+	50%{
+		left: 0%;
+	}
+	58%{
+		left: 0%;
+	}
+	60%{
+		left: -100%;
+	}
+	68%{
+		left: -100%;
+	}
+	70%{
+		left: -200%;
+	}
+	78%{
+		left: -200%;
+	}
+	80%{
+		left: -300%;
+	}
+	88%{
+		left: -300%;
+	}
+    90%{
+        left: -400%;
+    }
+    98%{
+        left: -400%;
+    }
+}
+
+
+
+.homeStarted {
+    margin: 0 auto;
+    width: 100%;
+    left: 50%;
+    top: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.buttonStarted{
+    padding: 20px 0px;
+    text-align: center;
+}
+.buttonStarted a {
+    text-decoration: none;
+    color: #4e5052;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 15px 37%;
+    font-family: Arial, 'lucida Sans Unicode';
+}
+.paraStarted {
+    margin: 30px auto;
+    text-align: center;
+    color: #4e5052;
+}
+.paraStarted a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4e5052;
+}
+
+
+
+
