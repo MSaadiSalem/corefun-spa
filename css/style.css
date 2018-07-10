@@ -160,12 +160,12 @@ body {
     padding: 15px 37%;
     font-family: Arial, 'lucida Sans Unicode';
 }
-.paraStarted {
+.paraFooter {
     margin: 30px auto;
     text-align: center;
     color: #4e5052;
 }
-.paraStarted a {
+.paraFooter a {
     text-decoration: none;
     font-weight: bold;
     color: #4e5052;
