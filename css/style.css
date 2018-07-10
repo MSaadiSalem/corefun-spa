@@ -188,6 +188,15 @@ body {
     width: 100%;
     height: 180px;
 }
+.mianSginIn a {
+    position: absolute;
+    color: #485d67;
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 5;
+}
 .mianSginIn p {
     width: 100%;
     text-align: center;
